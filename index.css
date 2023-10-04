@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-top: 20px;
+}
+#whole{
+    margin: 40px 20px 0px 40px;
+    height: 60vh;
+    border: 3px solid gray;
+    border-radius: 1%;
+    width: 65%;
+    margin: auto;
+    display: flex;
+   
+}
+#left{
+    padding: 60px;
+    width: 100%;
+}
+.right{
+    width: 40%;
+    height: 100%;
+}
+.right>img{
+    height: 100%;
+    width: 100%;
+}
+#left>p{
+    display: flex;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    font-size: 2.8rem;
+    padding-bottom: 1rem;
+}
+.two{
+    width: 100%;
+}
+
+.logo>#g{
+    color:rgb(45, 45, 203);
+}
+.logo>#o1{
+    color:rgb(199, 40, 19);
+}
+.logo>#o2{
+    color: rgb(243, 212, 12);
+}
+.logo>#g2{
+    color:rgb(45, 45, 203);
+}
+.logo>#l{
+    color: rgb(2, 131, 24);
+}
+.logo>#e{
+    color:rgb(199, 40, 19)
+    
+}
+.two>.two-one{
+    font-size:2.8rem;
+    width: 70%;
+    padding-bottom: 0.7rem;
+    display: flex;
+    text-align: left;
+
+}
+.two>.two-two{
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+}
+.form{
+    /* background-color: aqua; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+#fname, #lname,#first, #confirm  {
+    width: 200px;
+    height: 30px;
+}
+.form>input{
+    border-radius: 1%;
+    height: 0.5rem;
+    width: 100px;
+}
+.name{ 
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#email{
+    margin: 20px 0;
+    width: 55%;
+    height: 30px;
+    text-align: right;
+}
+.password{
+    padding-top: 2rem;
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+}
+#instead{
+    border: none;
+    background-color: white;
+    color: rgb(24, 24, 193);
+    font-size: 1rem;
+    font-weight: bold;
+    /* max-width: 50%; */
+    text-align: left;
+    padding-right: 200px;
+
+}
+.post{
+    display: flex;
+    padding-top: 3rem;
+    /* width: 50%; */
+    /* justify-content: space-around; */
+}
+#submit{
+    color: white;
+    background-color:rgb(24, 24, 193);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 200px;
+
+}
